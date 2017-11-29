@@ -25,7 +25,6 @@ header {
 }
 
 .logo{
-  text-decoration: none;
   margin: 2% 0 0 4%;
 }
 
@@ -36,7 +35,6 @@ header {
 }
 
 .menu li a{
-  text-decoration: none;
   font-size: 20px;
   color: rgb(108,108,108);
 }
@@ -47,7 +45,7 @@ header {
 }
 
 .banner{
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-image: url(../images/banner.png);
   background-size: 100%;
@@ -67,12 +65,15 @@ header {
   vertical-align: bottom;
 }
 
+.check-mark{
+  float: left;
+}
+
 .button{
   background-color: #5094f2;
   font-size: 22px;
-  border-radius: 2px;
-  line-height: 30px;
-  cursor: not-allowed;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .circles{
@@ -108,7 +109,13 @@ h2{
   color: rgb(111,113,115);
 }
 
+.bullet-text li{
+  margin-top: 10px;
+}
+
 footer{
   border-top: 0.5px solid rgb(144,144,144);
   text-align: center;
+  font-size: 15px;
+  padding: 25px 25px 25px 25px;
 }
