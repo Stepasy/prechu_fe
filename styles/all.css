@@ -4,34 +4,35 @@
 }
 
 body{
+  width: 100%;
+  max-width: 1250px;
   font-family: "SegoeWPN-Light";
   font-size: 14px;
   color: rgb(144,144,144);
 }
 
-header, .banner, .shopping-cart{
+.site-nav, .banner, .shopping-cart, .nav-menu{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-header {
+.site-nav {
+  height: 118.656px
   font-size: 20px;
 }
 
+.nav-menu{
+  margin: 10px;
+}
+
 .menu {
-  padding-right: 10%;
+  padding-right: 80px;
 }
 
 .logo{
   margin: 2% 0 0 4%;
-}
-
-.menu li{
-  display: inline;
-  margin:0 40px 0 0;
-
 }
 
 .menu li a{
@@ -40,15 +41,14 @@ header {
 }
 
 .menu li:hover{
-  border-bottom: 3px solid blue;
-  padding-bottom: 2%;
+  border-bottom: 3px solid #5094f2;
 }
 
 .banner{
   justify-content: space-around;
   align-items: center;
   background-image: url(../images/banner.png);
-  background-size: 100%;
+  background-size: auto;
 }
 
 .text-banner {
